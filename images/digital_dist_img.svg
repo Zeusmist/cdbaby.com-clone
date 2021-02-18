@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 87">
+  <defs>
+    <style>
+      .digital_dist_svg-1 {
+        fill: none;
+        stroke: #4ebe9f;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2.12px;
+      }
+    </style>
+  </defs>
+  <title>digital_dist</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="New_Site_Design" data-name="New Site Design">
+      <g>
+        <g>
+          <g>
+            <g>
+              <line class="digital_dist_svg-1" x1="71.46" y1="43.61" x2="85.42" y2="43.61"/>
+              <polyline class="digital_dist_svg-1" points="79.88 38.08 85.42 43.6 79.88 49.14"/>
+            </g>
+            <g>
+              <line class="digital_dist_svg-1" x1="15.02" y1="43.61" x2="1.06" y2="43.61"/>
+              <polyline class="digital_dist_svg-1" points="6.59 49.14 1.06 43.61 6.59 38.08"/>
+            </g>
+          </g>
+          <g>
+            <g>
+              <line class="digital_dist_svg-1" x1="43.24" y1="15.02" x2="43.24" y2="1.06"/>
+              <polyline class="digital_dist_svg-1" points="37.71 6.59 43.24 1.06 48.77 6.59"/>
+            </g>
+            <g>
+              <line class="digital_dist_svg-1" x1="43.24" y1="72.2" x2="43.24" y2="86.15"/>
+              <polyline class="digital_dist_svg-1" points="48.77 80.62 43.24 86.16 37.71 80.62"/>
+            </g>
+          </g>
+        </g>
+        <g>
+          <line class="digital_dist_svg-1" x1="56.31" y1="35.35" x2="56.31" y2="52.28"/>
+          <g>
+            <path class="digital_dist_svg-1" d="M34.79,53.89a4.71,4.71,0,0,1-3.15,5.83,4.43,4.43,0,1,1-3-8.27A4.7,4.7,0,0,1,34.79,53.89Z"/>
+            <path class="digital_dist_svg-1" d="M56.07,50.59A5,5,0,0,1,46.77,54a5,5,0,0,1,9.3-3.38Z"/>
+            <polygon class="digital_dist_svg-1" points="56.31 35.35 35.09 38.66 35.09 32.47 56.31 29.16 56.31 35.35"/>
+            <line class="digital_dist_svg-1" x1="35.08" y1="38.66" x2="35.08" y2="55.58"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

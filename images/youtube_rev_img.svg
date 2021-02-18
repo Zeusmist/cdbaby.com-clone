@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 53">
+  <defs>
+    <style>
+      .youtube_rev_svg-1 {
+        fill: none;
+        stroke: #4ebe9f;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2.12px;
+      }
+    </style>
+  </defs>
+  <title>youtube_rev</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="New_Site_Design" data-name="New Site Design">
+      <g>
+        <g>
+          <g>
+            <rect class="youtube_rev_svg-1" x="1.06" y="1.06" width="57.09" height="51.37"/>
+            <line class="youtube_rev_svg-1" x1="1.06" y1="14.09" x2="58.15" y2="14.09"/>
+          </g>
+          <line class="youtube_rev_svg-1" x1="14.01" y1="1.06" x2="1.06" y2="13.8"/>
+          <line class="youtube_rev_svg-1" x1="28.7" y1="1.06" x2="15.75" y2="13.8"/>
+          <line class="youtube_rev_svg-1" x1="43.39" y1="1.06" x2="30.43" y2="13.8"/>
+          <line class="youtube_rev_svg-1" x1="58.07" y1="1.06" x2="45.12" y2="13.8"/>
+        </g>
+        <polygon class="youtube_rev_svg-1" points="38.07 33.66 25.38 43.18 25.38 24.15 38.07 33.66"/>
+      </g>
+    </g>
+  </g>
+</svg>

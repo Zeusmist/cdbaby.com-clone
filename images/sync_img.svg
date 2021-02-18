@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 69">
+  <defs>
+    <style>
+      .sync_svg-1 {
+        fill: none;
+        stroke: #4ebe9f;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2.12px;
+      }
+    </style>
+  </defs>
+  <title>sync</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="New_Site_Design" data-name="New Site Design">
+      <g>
+        <polygon class="sync_svg-1" points="52.83 68.86 1.06 68.86 1.06 8.38 38.6 8.38 52.83 22.61 52.83 68.86"/>
+        <polygon class="sync_svg-1" points="38.6 22.61 52.83 22.61 38.6 8.38 38.6 22.61"/>
+        <polyline class="sync_svg-1" points="52.83 61.54 60.15 61.54 60.15 1.06 8.38 1.06 8.38 8.38"/>
+        <g>
+          <line class="sync_svg-1" x1="36.25" y1="36.7" x2="36.25" y2="50.05"/>
+          <g>
+            <path class="sync_svg-1" d="M19.27,51.32a3.72,3.72,0,0,1-2.48,4.6,3.5,3.5,0,1,1-2.38-6.53A3.7,3.7,0,0,1,19.27,51.32Z"/>
+            <path class="sync_svg-1" d="M36.06,48.71a3.7,3.7,0,0,1-2.48,4.6,3.5,3.5,0,1,1-2.37-6.53A3.71,3.71,0,0,1,36.06,48.71Z"/>
+            <polygon class="sync_svg-1" points="36.25 36.7 19.5 39.3 19.5 34.42 36.25 31.81 36.25 36.7"/>
+            <line class="sync_svg-1" x1="19.5" y1="39.3" x2="19.5" y2="52.65"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

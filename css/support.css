@@ -1,0 +1,221 @@
+#headerhead{
+    position:relative;
+    margin-top:-8px;
+    padding:8px
+}
+#supportlogo{
+    width:150px;
+    height:35px;
+    position:relative;
+    left:84px;
+    top:10px
+}
+#headnav{
+    position:relative;
+    width:1000px;
+    top:-15px;
+    left:255px
+}
+#headnavreturn{
+    color:mediumaquamarine;
+    text-decoration:none;
+    font-family:arial;
+    font-size:15px;
+}
+#headnavreturn:hover{
+    text-decoration:underline;
+}
+.headnavtxt{
+    position:relative;
+    color:mediumaquamarine;
+    font-size:14px;
+    font-family:arial;
+    padding:0px 20px 0px 0px;
+    text-decoration:none;
+    left:555px;
+}
+.headnavtxt:hover{
+    text-decoration:underline;
+}
+#headerimg{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url(../images/woman-playing-guitar.jpg);
+    height:300px;
+    width:1349px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin-left:-8px;
+    position:relative;
+    top:-35px;
+}
+#headerimgtxt{
+    position:relative;
+    top: 90px;
+    color:white;
+    text-align:center;
+    font-size: 40px;
+    font-family:agency fb;
+}
+#headsearch{
+    background-image:url(../images/searchicon.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:left;
+    position: relative;
+    left:400px;
+    top:90px;
+    width:550px;
+    height:40px;
+    border-radius:50px;
+    border:solid 1px grey;
+    padding:5px 5px 5px 40px;
+}
+#fixedbox{
+    position:fixed;
+    z-index: 1;
+    bottom: -10px;
+    right: 30px;
+    background-color:purple;
+    color:white;
+    width:300px;
+    height:60px;
+    border-radius:10px;
+    
+}
+#fixedboxtxt{
+    position:relative;
+    left:-25px;
+    top: -5px;
+    font-family:arial;
+    font-size:15px;
+}
+#supportboxes{
+    position:relative;
+    left:20px;
+    width:1300px;
+    top: 30px;
+}
+#boxline1{
+    position:relative;
+    padding: 0px 0px 155px 0px;
+    left:20px;
+    text-align: center;
+}
+.bl1{
+    position:relative;
+    background-color:darkcyan;
+    width:350px;
+    height:120px;
+    float:left;
+    margin-left:50px;
+    border-radius:5px;
+    text-decoration: none;
+    color:white;
+    
+}
+.bl1:hover{
+    text-decoration:underline;
+    background-color:mediumturquoise;
+}
+.blhead{
+    font-family:arial;
+    position:relative;
+}
+#boxline2{
+    position:relative;
+    padding: 0px 0px 130px 0px;
+    left:20px;
+    text-align: center;
+}
+.bl2{
+    position:relative;
+    background-color:darkcyan;
+    width:350px;
+    height:95px;
+    float:left;
+    margin-left:50px;
+    border-radius:5px;
+    text-decoration: none;
+    color:white;
+}
+.bl2:hover{
+    text-decoration:underline;
+    background-color:mediumturquoise;
+}
+#boxline3{
+    position:relative;
+    padding: 0px 0px 150px 0px;
+    left:20px;
+    text-align: center;
+}
+.bl3{
+    position:relative;
+    background-color:darkcyan;
+    width:550px;
+    height:95px;
+    float:left;
+    margin-left:50px;
+    border-radius:5px;
+    text-decoration: none;
+    color:white;
+}
+.bl3:hover{
+    text-decoration:underline;
+    background-color:mediumturquoise;
+}
+#promotedarticles{
+    position:relative;
+    left:90px;
+    width:1150px;
+    
+}
+.PAs{
+    text-decoration:none;
+    color: black;
+    float:left;
+    padding:0px 10px 20px 0px;
+    margin-left:15px;
+    position:relative;
+    left:-15px;
+    font-family:arial;
+    font-size:15px
+}
+.PAs:hover{text-decoration:underline}
+#recentactivity{
+    float:left;
+    position: relative;
+    top:30px;
+    width: 1150px;
+    left:90px;
+}
+.RAs{
+    text-decoration: none;
+    color:black;
+    font-family:arial;
+    
+}
+.RAtitle{
+    position: relative;
+    top:30px
+}
+.RAsubtext{
+    position:relative;
+    top:25px;
+    font-size:12px;
+    font-family:arial nova;
+}
+.RAtimer{
+    position:relative;
+    top:25px;
+    font-size:12px;
+    float: right;
+    font-family:arial nova;
+}
+#RAseemore{
+    position:relative;
+    top:10px;
+    text-decoration:none;
+    font-family:arial;
+    color:mediumaquamarine;
+    font-size:15px:
+}
+#RAseemore:hover{text-decoration:underline}

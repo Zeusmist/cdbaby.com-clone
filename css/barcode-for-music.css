@@ -1,0 +1,62 @@
+.pincing{
+    font-size: 50px;
+    margin-top: -100px;
+    text-align: center;
+}
+#sectionOne{
+    background-color: lightgray;
+}
+.pricing{
+    margin-top:100px;
+    width:500px;
+    margin-left: 700px;
+}
+.pricing p{
+    font-size: 35px
+}
+.pricing span{
+    font-size:20px; 
+}
+#sectionTwo{
+    background-color: aqua;
+    height: 500px
+}
+.upcBarcode{
+    width: 600px;
+    margin-left: 250px;
+    position:relative;
+    top: 100px;
+    color: white;
+}
+.upcBarcode p{
+    font-size: 40px;
+}
+.upcBarcode span{
+    font-size: 25px;
+}
+.upcBarcode img{
+    width: 200px;
+    height: 350px;
+    margin-left: 700px;
+    margin-top: -400px
+}
+#sectionThree{
+    background-color: lightgray;
+    text-align: center;
+    height:200px
+}
+#sectionThree img{
+    width: 50px;
+    height: 20px;
+}
+#sectionThree p{
+    color: black;
+    font-size: 30px;
+}
+#sectionThree a{
+    text-decoration: none;
+    color: white;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 50px
+}

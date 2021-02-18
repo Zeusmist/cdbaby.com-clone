@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 82">
+  <defs>
+    <style>
+      .cd_vinyl_svg-1, .cd_vinyl_svg-2 {
+        fill: none;
+        stroke: #4ebe9f;
+        stroke-linecap: round;
+        stroke-width: 2.12px;
+      }
+
+      .cd_vinyl_svg-1 {
+        stroke-linejoin: round;
+      }
+
+      .cd_vinyl_svg-2 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>cd_vinyl</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="New_Site_Design" data-name="New Site Design">
+      <g>
+        <g>
+          <path class="cd_vinyl_svg-1" d="M36.75,18.91A17.85,17.85,0,1,1,18.91,1.06,17.84,17.84,0,0,1,36.75,18.91Z"/>
+          <g>
+            <path class="cd_vinyl_svg-2" d="M23.63,12.86A7.69,7.69,0,0,0,19,11.36c-2.88,0-4.41,1.62-4.41,3.71s2.64,3.11,4.54,3.75,4.79,1.28,4.79,3.83c0,2.35-2.77,3.41-4.67,3.41a10.34,10.34,0,0,1-5.3-2"/>
+            <line class="cd_vinyl_svg-2" x1="18.97" y1="9.49" x2="18.97" y2="28.32"/>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path class="cd_vinyl_svg-1" d="M72.8,69.06c1.71,4.69-1.18,10-6.46,12S55.4,80.71,53.7,76s1.18-10,6.46-12S71.1,64.37,72.8,69.06Z"/>
+            <line class="cd_vinyl_svg-1" x1="73.29" y1="31.01" x2="73.29" y2="72.54"/>
+            <path class="cd_vinyl_svg-1" d="M86.79,66.58c16.1-19.07-13.5-26.69-13.5-38.14V49.63S92.72,52,86.79,66.58Z"/>
+          </g>
+          <path class="cd_vinyl_svg-1" d="M50.24,81.39a26.67,26.67,0,0,1-4.21.33,27.12,27.12,0,1,1,22-43"/>
+          <path class="cd_vinyl_svg-1" d="M46,49.29a5.31,5.31,0,1,1-5.31,5.31A5.3,5.3,0,0,1,46,49.29Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

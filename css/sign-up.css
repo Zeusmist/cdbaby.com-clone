@@ -1,0 +1,339 @@
+body{margin: 0}
+#header{
+    position:fixed;
+    z-index: 2;
+    background-color:black;
+    width:1357px;
+    height:85px;
+    left:-8px;
+    top:0px;
+}
+#headlogo{
+    position: relative;
+    top: 20px;
+    left: 165px;
+    width:150px;
+    height:40px;
+}
+#navcon{
+    margin-top:-25px;
+    margin-left:350px;
+    width:900px;
+}
+.navs{
+    position: relative;
+    display: inline-block;
+}
+.navbutt{
+    text-decoration: none;
+    font-family:arial nova;
+    padding:10px;
+    font-size:13px;
+    color: white;
+}
+.navdropdowncontent{
+    position: absolute;
+    display: none ;
+    min-width:0px;
+    background-color: darkseagreen;
+    margin-top: 9px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.navdropdowncontent a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: arial nova;
+    font-size: 15px
+}
+.navdropdowncontent a:hover{
+    background-color: seagreen;
+}
+.navs:hover .navdropdowncontent, .navs:hover #pricingdropdowncontent{
+    display: block;
+}
+.navs:hover .navbutt{
+    background-color: mediumseagreen;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.supportLogin{
+    text-decoration: none;
+    font-family:arial nova;
+    margin-right:10px;
+    font-size:13px;
+    color: white;
+}
+.supportLogin:hover{color:mediumseagreen}
+#pricingdropdowncontent{
+    position: absolute;
+    display: none ;
+    min-width:180px;
+    background-color: darkseagreen;
+    margin-top: 9px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#pricingdropdowncontent a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-family: arial nova;
+    font-size: 12px;
+}
+#pricingdropdowncontent a:hover{
+    background-color: seagreen;
+}
+#pricingdropdowncontent #Col1, #Col2{
+    width: 80px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+#pricingdropdowncontent #Col3{
+    float: left;
+    width: 160px;
+    color: white;
+    font-size: 14px
+}
+#pricingdropdowncontent .pricingHead{
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+}
+#pricingdropdowncontent .pricingPrice1{
+    color: black;
+    font-size: 18px;
+}
+#pricingdropdowncontent .pricingPrice2{
+    color: black;
+    font-weight: 100;
+    font-size: 18px
+}
+#pricingdropdowncontent p{
+    color: black;
+    margin-top:-10px
+}
+#navbuttGS{
+    background-color:mediumseagreen;
+    padding:12px;
+    border-radius:5px;
+}
+#navbuttGS:hover{background-color:seagreen}
+#navglobe{
+    position:relative;
+    top:5px;
+    left:5px
+}
+#navglobedir{
+    position: relative;
+    left:8px;
+}
+#underNavbar{
+    height: 120px;
+    margin-top: 85px;
+    background-image: url(../images/microphone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#underNavbar p{
+    text-align: center;
+    color:white;
+    font-family: arial nova;
+    font-size:50px;
+    font-weight: 100;
+    position: relative;
+    top: 30px;
+    text-shadow:1px 1px 11px black;
+}
+#firstSection{
+    background-color: darkslateblue;
+    margin-top:-40px;
+    height: 285px;
+}
+#firstSection p{
+    text-align: center;
+    color: white;
+    font-family: arial nova;
+    font-size: 40px;
+    font-weight: 100;
+    width: 900px;
+    position: relative;
+    left: 230px;
+    top: 30px
+}
+#firstSection img{
+    margin-left: 230px;
+    width: 900px;
+}
+#secondSection{
+    background-color: lightgrey;
+    margin-top: -33px;
+    height: 1600px;
+}
+#secondSec{
+    width: 800px;
+    margin-left:270px;
+    position: relative;
+    top: 50px;
+}
+#secondSec h2{
+    font-family: arial nova;
+    font-size: 40px;
+    font-weight: 400
+}
+#secondSec div{
+    font-family: arial nova;
+    font-size: 13px;
+}
+#secondSec div a{
+    text-decoration: none;
+    color: mediumseagreen
+}
+#secondSec div a:hover{
+    text-decoration: underline;
+    color: seagreen
+}
+#secondSec h3{
+    font-family: arial nova;
+    font-size: 25px;
+    font-weight: 400
+}
+.lines{
+    background-color: gray;
+    border: solid 2px gray
+}
+.inputHead{
+    font-family: arial nova;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: -18px
+}
+.names{
+    width: 800px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px darkgray;
+}
+#state{
+    width: 800px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px darkgray;
+}
+#postal{
+    width: 800px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px darkgray;
+}
+.inputsFoot{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px darkgray;
+}
+.inputFoot{
+    font-family: arial nova;
+    color: grey;
+    font-size: 13px;
+    margin-bottom: -20px;
+    margin-top:-2px
+}
+#secondSec .inputs{
+    width: 800px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px darkgray;
+}
+#checkbox p{
+    position: relative;
+    top: -30px;
+    left: 20px;
+    font-weight: 600
+}
+#continuebutt{
+    padding:20px;
+    background-color: mediumseagreen;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+}
+#continuebutt:hover{background-color: seagreen}
+#socialMedia{
+    background-color: mediumseagreen;
+    width: 1357px;
+    margin-left: -8px;
+    height:90px;
+    text-align: center;
+}
+#SMsocial{
+    color: white;
+    padding: 18px 18px 15px 15px;
+    border-radius: 100%;
+    margin-left: 30px;
+    border: solid 2px white;
+    position: relative;
+    top:30px;
+}
+#SMsocial:hover{
+    background-color: white;
+    color: mediumseagreen
+}
+#footer{
+    background-color: black;
+    margin-left: -8px;
+    width: 1357px;
+    height: 690px
+}
+#footerlogo{
+    position: relative;
+    top: 80px;
+    left: 250px;
+    width: 150px;
+    height: 40px;
+}
+#footerlinkscon{
+    width:700px;
+    position: relative;
+    left: 450px;
+    top: 20px
+}
+#footerCol1{
+    width: 200px;
+}
+.footerheads{
+    color: white;
+    font-family:arial nova;
+    font-size: 12px;
+    padding:0px 0px
+}
+.footerlinks{
+    text-decoration: none;
+    color: mediumseagreen;
+    font-family: arial nova;
+    font-size: 12px;
+    float: left;
+    width:160px;
+    margin-right: 50px;
+    
+    margin-bottom: 16px;
+    position: relative;
+}
+#footerCol2{
+    width: 200px;
+    position: absolute;
+    top:-16px;
+    left: 200px;
+}
+#footerCol3{
+    width: 200px;
+    position: absolute;
+    top:-16px;
+    left: 400px;
+}
+.footerlinks:hover{color: white}

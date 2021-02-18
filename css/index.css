@@ -1,0 +1,762 @@
+body{margin: 0}
+#header{
+    position:fixed;
+    z-index: 2;
+    background-color:black;
+    width:1357px;
+    height:85px;
+    left:-8px;
+    top:0px;
+}
+#headlogo{
+    position: relative;
+    top: 20px;
+    left: 165px;
+    width:150px;
+    height:40px;
+}
+#navcon{
+    margin-top:-25px;
+    margin-left:350px;
+    width:900px;
+}
+.navs{
+    position: relative;
+    display: inline-block;
+}
+.navbutt{
+    text-decoration: none;
+    font-family:arial nova;
+    padding:10px;
+    font-size:13px;
+    color: white;
+}
+.navdropdowncontent{
+    position: absolute;
+    display: none ;
+    min-width:0px;
+    background-color: darkseagreen;
+    margin-top: 9px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.navdropdowncontent a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: arial nova;
+    font-size: 15px
+}
+.navdropdowncontent a:hover{
+    background-color: seagreen;
+}
+.navs:hover .navdropdowncontent, .navs:hover #pricingdropdowncontent{
+    display: block;
+}
+.navs:hover .navbutt{
+    background-color: mediumseagreen;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.supportLogin{
+    text-decoration: none;
+    font-family:arial nova;
+    margin-right:10px;
+    font-size:13px;
+    color: white;
+}
+.supportLogin:hover{color:mediumseagreen}
+#pricingdropdowncontent{
+    position: absolute;
+    display: none ;
+    min-width:180px;
+    background-color: darkseagreen;
+    margin-top: 9px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#pricingdropdowncontent a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-family: arial nova;
+    font-size: 12px;
+}
+#pricingdropdowncontent a:hover{
+    background-color: seagreen;
+}
+#pricingdropdowncontent #Col1, #Col2{
+    width: 80px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+#pricingdropdowncontent #Col3{
+    float: left;
+    width: 160px;
+    color: white;
+    font-size: 14px
+    
+}
+#pricingdropdowncontent .pricingHead{
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+}
+#pricingdropdowncontent .pricingPrice1{
+    color: black;
+    font-size: 18px;
+}
+#pricingdropdowncontent .pricingPrice2{
+    color: black;
+    font-weight: 100;
+    font-size: 18px
+}
+#pricingdropdowncontent p{
+    color: black;
+    margin-top:-10px
+}
+#navbuttGS{
+    background-color:mediumseagreen;
+    padding:12px;
+    border-radius:5px;
+}
+#navbuttGS:hover{background-color:seagreen}
+#navglobe{
+    position:relative;
+    top:5px;
+    left:5px
+}
+#navglobedir{
+    position: relative;
+    left:8px;
+}
+#headerbody{
+    background-image:url(../images/indie-rock.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:575px;
+/*    position:relative;*/
+    margin-top:85px;
+    width:1357px;
+    margin-left:-8px;
+}
+#undernavcon{
+    position:relative;
+    background-color:black;
+    filter:opacity(80%);
+    height:35px;
+}
+#textUNC{
+    color: white;
+    text-align:center;
+    font-size:13px;
+    position:relative;
+    top:9px
+}
+#spotifyUNC{color:white}
+#appleUNC{color:white}
+#youtubeUNC{color:white}
+#iconsUNC{
+    position:relative;
+    top:-25px;
+    width:80px;
+    left:1005px;
+    text-decoration:none;
+}
+#headbodytext1{
+    font-size:110px;
+    font-weight:bold;
+    font-family:Haettenschweiler;
+    text-align:center;
+    width:1357px;
+    height:100px;
+    margin-left:-8px;
+    color:white;
+    position:relative;
+    top:-35px;
+    text-shadow:1px 1px 11px black;
+    
+}
+#headbodytext11{
+    font-size:130px;
+    position:relative;
+    top:-25px
+}
+#headbodytext2{
+    font-family:arial;
+    color: white;
+    font-weight:bold;
+    text-align:center;
+    font-size:28px;
+    text-shadow:1px 1px 11px black;
+    position: relative;
+    top:-25px
+}
+#headerbodybutt{
+    background-color: mediumseagreen;
+    padding:15px 30px 15px 30px;
+    border-radius:40px;
+    position:relative;
+    left:570px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family:arial nova;
+    top:-10px;
+}
+#headerbodybutt:hover{background-color:seagreen}
+#insideheadbodycon{
+    height:55px;
+/*    position: relative;*/
+    margin-top:78px;
+    background-color: black;
+    filter: opacity(70%);
+    text-align: center;
+}
+#textIHBC{
+    font-size:20px;
+    font-family:arial nova;
+    position:relative;
+    top:15px;
+    left: -40px;
+    text-decoration: none;
+    color: white;
+}
+#textIHBC:hover{text-decoration: underline}
+#musicsym{
+    background-color: mediumseagreen;
+    padding:10px 5px 7px 5px;
+    border-radius:100%;
+    position:relative;
+    top:-32px;
+    left:75px;
+    color: white;
+    text-decoration: none;
+}
+#musicsym:hover{background-color:seagreen}
+#firstsection{
+    background-color:lightgrey;
+/*    position:relative;*/
+    margin-top:-47px;
+    margin-left:-8px;
+    width:1357px;
+    height:600px
+}
+#FShead{
+    text-align:center;
+    font-size:46px;
+    font-family:arial;
+    font-weight:600;
+    line-height:50px;
+    padding:40px 0px 0px 0px;
+}
+#FStext{
+    font-size:19.4px;
+    text-align:center;
+    font-family:arial nova;
+    width:950px;
+    position:relative;
+    left:180px;
+    top:-15px;
+    line-height:28px
+}
+#FSsvgimages{
+    width:900px;
+    position:relative;
+    left:255px;
+    text-align: center;
+    line-height:50px;
+}
+#FSapplemusic{
+    width:150px;
+    position:relative;
+    left:-110px;
+    
+}
+#FSspotify{
+    width:150px;
+    position:relative;
+    top:5px;
+    left:-80px;
+}
+#FSpandora{
+    width:150px;
+    position:relative;
+    left:-55px
+}
+#FSyoutube{
+    width:150px;
+    position: relative;
+    left:-18px;
+}
+#FSdeezer{
+    width:150px;
+    position:relative;
+    left:30px;  
+}
+#FSfacebook{
+    width:150px;
+    position:relative;
+    left:-130px
+}
+#FSitunes{
+    width:120px;
+    position:relative;
+    left:-85px;
+    top:2px
+}
+#FSgoogleplay{
+    width:180px;
+    position:relative;
+    left:-55px;
+    top:8px;
+}
+#FSamazonmusic{
+    width:80px;
+    position: relative;
+    left:-7px;
+    top:8px;
+}
+#FSdistributemusic{
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    left:550px;
+    padding:18px 70px;
+    border-radius:40px;
+    font-family:arial nova;
+    font-size:18px;
+    color: white;
+    background-color:mediumseagreen;
+    
+}
+#FSdistributemusic:hover{background-color: seagreen}
+#FSlegtext{
+    font-family:arial nova;
+    color: mediumseagreen;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    top:115px;
+    left:250px
+}
+#FSlegtext:hover{text-decoration: underline}
+#secondsection{
+    background-image: url(../images/dj-image.jpg);
+    background-size: cover;
+    width: 1357px;
+    height:580px;
+    margin-left:-8px;
+    position:relative;
+/*    display: flex;*/
+    margin-top:-45px;
+}
+#SSoverlay{
+    height:100%;
+    width:100%;
+    position: absolute;
+    background-color:darkviolet;
+    filter: opacity(30%)
+}
+#SShead{
+    z-index:1;
+    position:relative;
+    top:70px;
+    text-align: center;
+    height:60px;
+    font-family:arial nova;
+    font-size:45px;
+    font-weight:1000;
+    color:white
+}
+#SStext{
+    z-index: 1;
+    position: relative;
+    width:800px;
+    top:45px;
+    left:270px;
+    font-family: arial nova;
+    font-size:20px;
+    color:white;
+    text-align: center;
+}
+#SSsvgimages{
+    text-align: center;
+    height:100px;
+    position:relative;
+    top: 100px
+}
+.SSsvgimages{
+    width:65px;
+    height:65px;
+    padding:0px 70px;
+}
+.SSsvgtext{
+    color:white;
+    text-decoration: none;
+    font-family: arial nova;
+    font-size: 15px;
+    text-align: center;
+    position:relative;
+    left: 100px;
+    float: left;
+    top: 80px;
+    width:110px;
+    line-height: 20px;
+    margin-left:100px;
+}
+.SSsvgtext:hover{text-decoration: underline}
+#SSgetstarted{
+    text-decoration: none;
+    position: relative;
+    top: 195px;
+    left:-490px;
+    padding:18px 70px;
+    border-radius:40px;
+    font-family:arial nova;
+    font-size:18px;
+    color: white;
+    background-color:mediumseagreen;
+}
+#SSgetstarted:hover{background-color: seagreen}
+#thirdsection{
+    background-color:lightgrey;
+    width:1357px;
+    height: 900px;
+    margin-left:-8px;
+}
+#TShead{
+    text-align:center;
+    font-size:46px;
+    font-family:arial;
+    font-weight:600;
+    line-height:50px;
+    padding:60px 0px 0px 0px;
+}
+#TSvideo{
+    text-align: center;
+    margin-top:20px;
+}
+#TStext{
+    text-align: center;
+    font-family: arial;
+    font-size:25px;
+    margin-top: 30px;
+}
+#TSlearnmore{
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+    left:550px;
+    padding:18px 70px;
+    border-radius:40px;
+    font-family:arial nova;
+    font-size:18px;
+    color: white;
+    background-color:mediumseagreen;
+}
+#TSlearnmore:hover{background-color: seagreen}
+#fourthsection{
+    background-image:url(../images/microphone.jpg);
+    background-size: cover;
+    width: 1357px;
+    height:780px;
+    margin-left:-8px;
+    position:relative;
+}
+#FRSoverlay{
+    height:100%;
+    width:100%;
+    position: absolute;
+    background-color:darkviolet;
+    filter: opacity(30%);
+}
+#FRShead{
+    z-index:1;
+    position:relative;
+    top:70px;
+    text-align: center;
+    font-family:arial nova;
+    font-size:45px;
+    font-weight:1000;
+    color:white
+}
+#FRSuhead{
+    z-index:1;
+    position:relative;
+    top:90px;
+    text-align: center;
+    font-family:arial nova;
+    font-size:25px;
+    color:white
+}
+#FRStext{
+    z-index: 1;
+    position: relative;
+    width:980px;
+    top:110px;
+    left:190px;
+    font-family: arial nova;
+    font-size:21px;
+    color:white;
+    text-align: center;
+}
+#FRSlisthead{
+    z-index: 1;
+    position: relative;
+    width:1100px;
+    top:255px;
+    left:170px;
+    font-family: arial nova;
+    font-weight: 600;
+    font-size:17px;
+    color:white;
+    text-align: center;
+}
+.FRSlisthead{
+    float: left;
+    width:450px;
+    margin-right:100px
+}
+#FRSlist{
+    z-index: 1;
+    position: relative;
+    width:1100px;
+    top:240px;
+    left:170px;
+    font-family: arial nova;
+    font-size:20px;
+    color:white;
+}
+.FRSlist{
+    float: left;
+    width:410px;
+    margin-right:85px;
+    line-height: 30px;
+}
+#FRSlearnmore1{
+    z-index: 1;
+    text-decoration: none;
+    color: mediumseagreen;
+    font-family: arial nova;
+    font-size: 20px;
+    position:relative;
+    top:450px;
+    left:-910px
+}
+#FRSlearnmore2{
+    z-index: 1;
+    text-decoration: none;
+    color: mediumseagreen;
+    font-family: arial nova;
+    font-size: 20px;
+    position:relative;
+    top:420px;
+    left:-480px
+}
+#FRSlearnmore1:hover,#FRSlearnmore2:hover{
+    text-decoration: underline;
+    color:seagreen;
+}
+#FRSgetstarted{
+    z-index: 1;
+    text-decoration:none;
+    background-color: mediumseagreen;
+    padding:20px;
+    text-decoration: none;
+    position: relative;
+    top: 510px;
+    left:-550px;
+    padding:18px 70px;
+    border-radius:40px;
+    font-family:arial nova;
+    font-size:18px;
+    color: white;
+    background-color:mediumseagreen;
+}
+#FRSgetstarted:hover{background-color:seagreen}
+#fifthsection{
+    background-color:lightgrey;
+    width:1357px;
+    height:600px;
+    margin-left:-8px;
+    margin-top: -46px;
+    position: relative;
+}
+#FFShead{
+    text-align:center;
+    font-size:46px;
+    font-family:arial;
+    font-weight:600;
+    line-height:50px;
+    padding:60px 0px 0px 0px;
+}
+#FFStext{
+    font-size: 19px;
+    font-family: arial nova;
+    text-align: center;
+    margin-top:-20px;
+    margin-left: 140px
+    
+}
+.FFStext{
+    width:400px;
+    float: left;
+    margin-left: 90px;
+    padding: 0px 0px 30px 0px;
+}
+#FFSutext1{
+    font-family: arial nova;
+    font-weight: 600;
+    font-size: 15px;
+    width: 360px;
+    height:200px ;
+    position: absolute;
+    left: 250px;
+    top:20px;
+    text-align: center
+}
+.FFSutext1{
+    padding:200px 0px 0px 0px;
+}
+#FFSutext2{
+    font-family: arial nova;
+    font-weight: 600;
+    font-size: 15px;
+    width: 360px;
+    height: 200px ;
+    position: absolute;
+    left: 750px;
+    top:90px;
+    text-align: center
+}
+.FFSutext2{
+    padding:150px 0px 0px 0px;
+}
+#sixthsection{
+    background-color:darkslateblue;
+    width:1357px;
+    height:420px;
+    margin-left:-8px;
+    margin-top: -46px;
+}
+#SXShead{
+    color: white;
+    text-align:center;
+    font-size:46px;
+    font-family:arial;
+    font-weight:600;
+    line-height:50px;
+    padding:60px 0px 0px 0px; 
+}
+#SXStext{
+    color: white;
+    font-family: arial nova;
+    text-align: center;
+    width: 1050px
+}
+.SXStexthead{
+    width:250px;
+    float: left;
+    margin-left:60px;
+    font-size:17px;
+    position: relative;
+    left: 130px;
+}
+.SXStextbody{
+    width:270px;
+    float: left;
+    margin-left: 40px;
+    position: relative;
+    left: 140px;
+    font-size: 18px;
+    font-weight:100
+}
+.SXStextfoot{
+    font-family: arial nova;
+    font-size: 17px;
+    text-decoration: none;
+    color: mediumseagreen;
+    position: relative;
+    float: left;
+    margin-right: 200px;
+    width:110px;
+    left: 260px;
+}
+.SXStextfoot:hover{text-decoration: underline}
+#socialMedia{
+    background-color: mediumseagreen;
+    width: 1357px;
+    margin-left: -8px;
+    height:90px;
+    text-align: center;
+}
+#SMsocial{
+    color: white;
+    padding: 18px 18px 15px 15px;
+    border-radius: 100%;
+    margin-left: 30px;
+    border: solid 2px white;
+    position: relative;
+    top:30px;
+}
+#SMsocial:hover{
+    background-color: white;
+    color: mediumseagreen
+}
+#footer{
+    background-color: black;
+    margin-left: -8px;
+    width: 1357px;
+    height: 690px
+}
+#footerlogo{
+    position: relative;
+    top: 80px;
+    left: 250px;
+    width: 150px;
+    height: 40px;
+}
+#footerlinkscon{
+    width:700px;
+    position: relative;
+    left: 450px;
+    top: 20px
+}
+#footerCol1{
+    width: 200px;
+}
+.footerheads{
+    color: white;
+    font-family:arial nova;
+    font-size: 12px;
+    padding:0px 0px
+}
+.footerlinks{
+    text-decoration: none;
+    color: mediumseagreen;
+    font-family: arial nova;
+    font-size: 12px;
+    float: left;
+    width:160px;
+    margin-right: 50px;
+    
+    margin-bottom: 16px;
+    position: relative;
+}
+#footerCol2{
+    width: 200px;
+    position: absolute;
+    top:-16px;
+    left: 200px;
+}
+#footerCol3{
+    width: 200px;
+    position: absolute;
+    top:-16px;
+    left: 400px;
+}
+.footerlinks:hover{color: white}
