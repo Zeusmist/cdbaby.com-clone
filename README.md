@@ -1,5 +1,5 @@
 # cdbaby.com-clone
-This project was done in **2019**
+This project was done in **2019** and was for **HTML practice**
 
 Pages:
 - index.html
